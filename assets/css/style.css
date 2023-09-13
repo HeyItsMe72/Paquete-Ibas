@@ -15,19 +15,37 @@
     --dark: #2f2519;
 
 }
+
 /* Reset Styles  */
+a {
+    color: var(--orange);
+    transition: all .3s ease-out;
+    font-size: larger;
+}
+
+a:hover {
+    color: var(--primary-dark);
+}
+
 body {
     font-family: 'Familjen Grotesk', sans-serif;
+    overflow-x: hidden;
 
 }
+
+
 /* Bootstrap Styles */
 
 .bg-body-tertiary {
     background-color: var(--secundary) !important;
 }
 
+.card {
+    background-color: var(--secundary-light) ;
+}
+
 .dropdown-menu {
-    background-color: var(--secundary-light);
+    background-color: var(--secundary-dark);
     border: none;
 
 }
@@ -97,21 +115,74 @@ body {
 
 
 /* My Styles */
+.bg-gradient-pink {
+    background-color: var(--primary);
+    background-image: linear-gradient(
+        135deg, 
+        var(--primary),
+        var(--primary-light) 79%
+    );
+    background-image: linear-gradient(
+        131deg, 
+        var(--yellow), 
+        var(--primary) 70%
+    );
 
+    .logo {
+        max-width: 150px;
+    }
+
+    .img-home {
+        max-width: 350px;
+    }
+}
+
+.no-bg {
+    background-color: transparent;
+    border: none;
+}
 
 
 /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 280px) {
+    .title {
+        font-size: 3.5rem;
+    }
+    .subtitle {
+        font-size: 2.5rem;
+    }
+    
+}
 @media (min-width: 576px) { 
-
+    .title {
+        font-size: 5.5rem;
+    }
+    .subtitle {
+        font-size: 2.5rem;
+    }
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+    .subtitle {
+        font-size: 3.5rem;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    .banner {
+        padding: 5rem;
+        text-align: left !important;
+        padding-left: 2rem;
+    }
+    .title {
+        font-size: 5.5rem;
+    }
+    .subtitle {
+        font-size: 3.5rem;
+    }
+
     .nav-item:hover {
     background-color: transparent;
     }
@@ -126,10 +197,20 @@ body {
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+    .title {
+        font-size: 7.5rem;
+    }
+   
 
+
+    .img-fluid {
+        width: 100%;
+     }
  }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
-     
+     .img-fluid {
+        width: 100%;
+     }
  }
