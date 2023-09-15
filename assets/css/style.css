@@ -135,6 +135,11 @@ body {
     );
 }
 
+.bg-secundary-color {
+    background-color: rgb(255, 171, 171, .75);
+
+}
+
 .bg-gradient-pink {
     background-color: var(--primary);
     background-image: linear-gradient(
@@ -185,6 +190,10 @@ body {
 
 .img-c {
     max-height: 550px;
+}
+
+.img-cli {
+    height: 230px;
 }
 
 
