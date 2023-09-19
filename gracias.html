@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tracking</title>
+    <title>¡Recolección Agendada!</title>
     <link rel="icon" href="assets/img/icons/general/logo.png">
 
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
@@ -15,7 +15,7 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
+<body class="">
     <!-- Barra de navegación -->
     <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
@@ -34,7 +34,7 @@
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="buscador.html">Tracking</a>
+                        <a class="nav-link" aria-current="page" href="buscador.html">Tracking</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -61,54 +61,11 @@
         </div>
     </nav>
 
-    <main class="pt-3 bg-gradient-pink">
-        <section class="min-vh-100 ">
-            <div class="container text-center py-5">
-                <h1 class="mb-5 title">Paquete Ibas</h1>
-                <img src="assets/img/icons/general/logo.png" class="logo" alt="Paquete Ibas Logo">
-                <h3 class="pt-5 subtitle">Entregando con el ❤️</h3>
-            </div>
-            <!-- Input de Buscador -->
-            <div class="container text-center pt-2">
-                <div class="position-relative">
-                    <div class="container">
-                        <form class="container text-center row row-cols-lg-auto 
-                        g-2 align-items-center">
-                            <div class="col-9 col-md-9 col-lg-10">
-                                <label for="inputPassword2" class="visually-hidden">Rastrear</label>
-                                <input type="password" class="form-control" id="inputGuia" placeholder="Número de guía">
-                            </div>
-                            <div class="col col-lg-2">
-                                <button type="button" class="btn btn-danger" 
-                                data-bs-toggle="modal" data-bs-target="#buscarBtn">Rastrear</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Modal -->
-        <div class="modal fade " id="buscarBtn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header bg-gradient-yellow">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Rastreo guía {#250316}</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center ">
-                        <h1 class="title fs-1">Tu paquete está por llegar</h1>
-                        <h3 class="subtitle">Prepárate para recibirlo</h3>
-                        <small class="mb-5">En esta sección deberá compartirse el registro de las guías</small>
-
-                        <img src="assets/img/icons/general/basic icon.png" class="logo" alt="Paquete">
-                    </div>
-                    <div class="modal-footer bg-gradient-yellow">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <a href="nosotros.html#Contacto" class="btn btn-danger">Ayuda</a>
-                    </div>
-                </div>
-            </div>
+    <main class="bg-gradient-pink min-vh-100 d-flex align-items-center justify-content-center">
+        <div class="container text-center py-3 m-0">
+            <h1 class="mb-3 title">¡Gracias!</h1>
+            <h3 class="fs-1 py-3">Tu confianza es lo más importante. </h3>
+            <h3 class="m-0">¡La recolección ha sido agendada!</h3>
         </div>
     </main>
 

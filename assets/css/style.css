@@ -36,7 +36,6 @@ body {
 
 
 /* Bootstrap Styles */
-
 .bg-body-tertiary {
     background-color: var(--secundary) !important;
 }
@@ -96,7 +95,6 @@ body {
 
 .nav-link {
     margin-left: .5rem;
-    color: var(--dark);
     font-size: 1.2rem;
     font-weight: 500;
 
@@ -205,6 +203,10 @@ body {
     .subtitle {
         font-size: 2.5rem;
     }
+
+    .img-e {
+        width: 250px;
+    }
     
 }
 @media (min-width: 576px) { 
@@ -214,14 +216,23 @@ body {
     .subtitle {
         font-size: 2.5rem;
     }
+    .img-e {
+        width: 350px;
+    }
  }
+
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .subtitle {
         font-size: 3.5rem;
     }
+
+    .img-e {
+        width: 400px;
+    }
  }
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
