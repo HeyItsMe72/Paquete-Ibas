@@ -34,7 +34,7 @@
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="buscador.html">Tracking</a>
+                        <a class="nav-link" aria-current="page" href="buscador.html">Tracking</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -56,62 +56,80 @@
                         <a class="nav-link" href="clientes.html">Clientes</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="login.html">Log In</a>
+                        <a class="nav-link active" href="login.html">Log In</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <main class="pt-3 bg-gradient-pink">
-        <section class="min-vh-100 ">
-            <div class="container text-center py-5">
-                <h1 class="mb-5 title">Paquete Ibas</h1>
-                <img src="assets/img/icons/general/logo.png" class="logo" alt="Paquete Ibas Logo">
-                <h3 class="pt-5 subtitle">Entregando con el ❤️</h3>
-            </div>
-            <!-- Input de Buscador -->
-            <div class="container text-center pt-2">
-                <div class="position-relative">
-                    <div class="container">
-                        <form class="container text-center row row-cols-lg-auto 
-                        g-2 align-items-center">
-                            <div class="col-9 col-md-9 col-lg-10">
-                                <label for="inputPassword2" class="visually-hidden">Rastrear</label>
-                                <input type="password" class="form-control" id="inputGuia" placeholder="Número de guía">
+    <main class=" bg-gradient-pink">
+        <section class=" py-5">
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="row border rounded-5 p-3 shadow box-area" style="background-color: var(--light);">
+                    <div class="col-md-6 featured-image rounded-4 d-flex
+                    justify-content-center align-items-center flex-column bg-secundary-color
+                    text-center p-3">
+                        <h1 class="subtitle">¡Qué bueno volver a verte!</h1>
+                        <img src="assets/img/login/login.png" class="img-fluid" alt="LogIn" style="width: 350px;">
+                        <p class="fs-3">Inicia sesión para rastrear tus envíos,
+                            programar una recolección o encontrar atención personalizada.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6 p-3">
+                        <div class="row container m-auto">
+                            <div class="header-text mb-4 container">
+                                <h1 class="fs-2">¡Hola de nuevo!</h1>
+                                <p class="fs-4">Inicia sesión y
+                                    continúa con una experiencia única.
+                                </p>
                             </div>
-                            <div class="col col-lg-2">
-                                <button type="button" class="btn btn-danger" 
-                                data-bs-toggle="modal" data-bs-target="#buscarBtn">Rastrear</button>
+                            <div class="container">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Correo electrónico" aria-label="correoLog" aria-describedby="addon-wrapping">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Correo electrónico" aria-label="contraseñaLog" aria-describedby="addon-wrapping">
+                                </div>
+                                <div class="input-group d-flex justify-content-between mb-4">
+                                    <div class="form-check mb-3">
+                                        <input type="checkbox" class="form-check-input" aria-label="correoLog" 
+                                        id="formCheck">
+                                        <label for="formCheck"><small>Recuérdame</small></label>
+                                    </div>
+                                    <div class="">
+                                        <small><a href="#">¿Olvidaste tu contraseña?</a></small>
+                                    </div>
+                                </div>
+                                <p>¿No tienes una cuenta?   
+                                    <a href="#">¡Únete!</a>
+                                </p>
+                                <div class="input-group mt-5">
+                                    <button class="btn btn-lg btn-danger w-100">Iniciar sesión</button>
+                                </div>
+                                <div class="input-group mt-3">
+                                    <button class="btn btn-lg btn-light border w-100">
+                                        <img src="assets/img/login/google.png" class="me-3"
+                                        style="width: 25px;" alt="Iniciar con google">
+                                        <small>Iniciar sesión con Google</small>
+                                    </button>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <a class="navbar-brand" href="index.html">
+                                        <img src="assets/img/icons/general/logo.png" alt="Paquete Ibas Logo">
+                                        Paquete Ibas
+                                    </a>
+                                </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
-        <!-- Modal -->
-        <div class="modal fade " id="buscarBtn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header bg-gradient-yellow">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Rastreo guía {#250316}</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-center ">
-                        <h1 class="title fs-1">Tu paquete está por llegar</h1>
-                        <h3 class="subtitle">Prepárate para recibirlo</h3>
-                        <small class="mb-5">En esta sección deberá compartirse el registro de las guías</small>
 
-                        <img src="assets/img/icons/general/basic icon.png" class="logo" alt="Paquete">
-                    </div>
-                    <div class="modal-footer bg-gradient-yellow">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <a href="nosotros.html#Contacto" class="btn btn-danger">Ayuda</a>
-                    </div>
-                </div>
-            </div>
-        </div>
     </main>
 
 

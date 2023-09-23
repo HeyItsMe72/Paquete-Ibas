@@ -22,6 +22,7 @@ a {
     color: var(--orange);
     transition: all .3s ease-out;
     font-size: larger;
+    text-decoration: none;
 }
 
 a:hover {
@@ -179,6 +180,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.box-area {
+    width: 950px;
 }
 
 .no-bg {
