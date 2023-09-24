@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paquete Ibas</title>
+    <title>Paquete Ibas | Inicio</title>
     <link rel="icon" href="assets/img/icons/general/logo.png">
 
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
@@ -20,7 +20,8 @@
     <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/img/icons/general/logo.png" alt="Paquete Ibas Logo">
+                <img src="assets/img/icons/general/logo.png" 
+                alt="Paquete Ibas Logo" class="giro">
                 Paquete Ibas
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
@@ -68,20 +69,21 @@
         <header class="min-vh-100">
             <div class="py-5 mx-auto text-center">
                 <h1 class="title">Paquete Ibas</h1>
-                <img src="assets/img/icons/general/logo.png" class="logo position-static" alt="Paquete Ibas Logo">
+                <img src="assets/img/icons/general/logo.png" 
+                class="logo giro" alt="Paquete Ibas Logo">
                 <h3 class="subtitle">Entregando con el ❤️</h3>
             </div>
 
              <!-- Input de Buscador -->
-        <div class="position-relative pt-5">
+        <div class="position-relative pb-5 pt-3">
             <div class="container">
                 <form class="container text-center row row-cols-lg-auto 
                 g-2 align-items-center">
-                    <div class="col-9 col-md-9 col-lg-10">
-                        <label for="inputPassword2" class="visually-hidden">Rastrear</label>
+                    <div class="col-5 col-md-9 col-lg-10 w-75">
+                        <label for="inputGuia" class="visually-hidden"></label>
                         <input type="password" class="form-control" id="inputGuia" placeholder="Número de guía">
                     </div>
-                    <div class="col col-lg-2">
+                    <div class="col-1 col-lg-2">
                         <button type="button" class="btn btn-danger" 
                         data-bs-toggle="modal" data-bs-target="#buscarBtn">Rastrear</button>
                     </div>
@@ -162,36 +164,36 @@
             <!-- ENVIOS -->
             <section class="row text-center align-items-lg-center p-5">
                 <h2 class="fs-1">ENVIOS: COMO FUNCIONA</h2>
-                <h4 class="p-3 fs-3">Te guíamos en todo el proceso: de envío a entrega</h4>
+                <h4 class="p-3 fs-3">Te guíamos en todo el proceso: de envío a entrega.</h4>
                 <article class="col-12 col-lg-4 d-flex">
                     <div class="card mx-auto mb-3" style="width: 18rem; height: 32rem;">
-                        <img src="assets/img/icons/general/logo.png" class="card-img-top" alt="guías">
+                        <img src="assets/img/general/print.png" class=" m-2" alt="guías">
                         <div class="card-body">
                             <h5 class="card-title">Imprime tus guías</h5>
                             <p class="card-text">De acuerdo al tamaño, peso y destino de tu envío.</p>
-                            <a href="enviar.html" class="btn btn-danger mt-5">Conseguir guías</a>
+                            <a href="enviar.html#guias" class="btn btn-danger mt-5">Conseguir guías</a>
                         </div>
                     </div>
                 </article>
                 <article class="col-12 col-lg-4 d-flex">
                     <div class="card mx-auto mb-3" style="width: 18rem; height: 32rem;">
-                        <img src="assets/img/icons/general/logo.png" class="card-img-top" alt="calendario">
+                        <img src="assets/img/general/recolect.png" class="m-2" alt="calendario">
                         <div class="card-body">
                             <h5 class="card-title">Programa tu recolección</h5>
                             <p class="card-text">O localiza tu centro más cercano para ingresar
                                 tu paquete a la ruta de entrega correspondiente.</p>
-                            <a href="enviar.html" class="btn btn-danger mt-4">Programar o Encontrar</a>
+                            <a href="enviar.html#recolecciones" class="btn btn-danger mt-4">Programar o Encontrar</a>
                         </div>
                     </div>
                 </article>
                 <article class="col-12 col-lg-4 d-flex">
                     <div class="card mx-auto mb-3" style="width: 18rem; height: 32rem;">
-                        <img src="assets/img/icons/general/logo.png" class="card-img-top" alt="mapa">
+                        <img src="assets/img/general/tracking.png" class="m-2" alt="mapa">
                         <div class="card-body">
                             <h5 class="card-title">Localiza tu paquete</h5>
                             <p class="card-text">Sabrás su ubicación en todo momento hasta que
                                 haya sido entregado. ¡Te mantendremos informado!</p>
-                            <a href="#" class="btn btn-danger">Rastrear</a>
+                            <a href="buscador.html" class="btn btn-danger">Rastrear</a>
                         </div>
                     </div>
                 </article>
@@ -273,16 +275,16 @@
                     <i class="bi bi-box2-heart"></i>
                 </a>
             </nav>
-            <small>Lucia Esteves &copy; 2023. Hecho con fines educativos guíado por el
-                profesional
+            <small>
+                Creado con fines educativos por
                 <a href="https://www.youtube.com/@jonmircha" target="_blank">
-                    Jonathan MirCha
-                </a>.
+                    Lucía Esteves
+                </a> 
+                &copy; 2023. 
             </small>
         </div>
 
     </footer>
-
 
 </body>
 

@@ -120,6 +120,13 @@ body {
 
 
 /* My Styles */
+.app {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
 .bg-alpha-color {
     background-color: rgb(255, 249, 176, .5);
     background-image: linear-gradient(
@@ -199,7 +206,23 @@ body {
     height: 230px;
 }
 
+.giro {
+    animation-name: girar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+}
 
+
+@keyframes girar {
+    from {
+        transform:rotate(0deg);
+    } to {
+        transform:rotate(360deg);
+    }
+}
+ 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 280px) {
     .title {

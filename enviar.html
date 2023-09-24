@@ -2,410 +2,411 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Envíos</title>
-    <link rel="icon" href="assets/img/icons/general/logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paquete Ibas | Envíos</title>
+  <link rel="icon" href="assets/img/icons/general/logo.png">
 
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+   
 </head>
 
 <body>
-    <!-- Barra de navegación -->
-    <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/img/icons/general/logo.png" alt="Paquete Ibas Logo">
-                Paquete Ibas
+  <!-- Barra de navegación -->
+  <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/icons/general/logo.png" alt="Paquete Ibas Logo" class="giro">
+        Paquete Ibas
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="buscador.html">Tracking</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" aria-current="page" href="enviar.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Enviar
             </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-lg-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="buscador.html">Tracking</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" aria-current="page" href="enviar.html" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Enviar
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="enviar.html">Proceso de envío</a></li>
-                            <li><a class="dropdown-item" href="enviar.html#guias">Tarifas y tiempos de tránsito</a></li>
-                            <li><a class="dropdown-item" href="enviar.html#recolecciones">Programar y administrar
-                                    recolecciones</a></li>
-                            <li><a class="dropdown-item" href="enviar.html#centros">Buscar una ubicación</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html">Conócenos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="clientes.html">Clientes</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link" href="login.html">Log In</a>
-                  </li>
-                </ul>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="enviar.html#inicio">Proceso de envío</a></li>
+              <li><a class="dropdown-item" href="enviar.html#guias">Tarifas y tiempos de tránsito</a></li>
+              <li><a class="dropdown-item" href="enviar.html#recolecciones">Programar y administrar
+                  recolecciones</a></li>
+              <li><a class="dropdown-item" href="enviar.html#centros">Buscar una ubicación</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Conócenos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clientes.html">Clientes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="login.html">Log In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="bg-gradient-yellow">
+    <div class="container">
+      <section class="row py-3" id="inicio">
+        <article class="text-center pt-3">
+          <h1 class="fs-1">¡Tus envíos de la forma más rápida y segura!</h1>
+          <p class="fs-5">Estamos comprometidos contigo y con tu
+            experiencia. Aquí te presentamos cómo puedes realizar
+            tus envíos. ¡Rápido y seguro!
+          </p>
+        </article>
+        <section class="row align-items-lg-center text-center">
+          <article class="col-12 col-lg-6 text-lg-end pb-5">
+            <h2>Paso 1</h2>
+            <h4>Imprime tus guías</h4>
+            <p class="fs-5">De acuerdo al tamaño, peso y destino de tu envío
+              se te brindarán tus guías y costos de cada una de ellas.
+              ¡Más envíos, más ahorro!
+            </p>
+            <a class="btn btn-danger btn-outline-warning" href="#guias" role="button">Conseguir</a>
+          </article>
+          <article class="col-12 col-lg-6">
+            <img src="assets/img/envios/guias.png" class="img-e" alt="guias">
+          </article>
+        </section>
+        <section class="row align-items-lg-center text-center">
+          <article class="col-12 col-lg-6 order-lg-1 text-lg-start py-5">
+            <h2>Paso 2</h2>
+            <h4>Programa tu recolección</h4>
+            <p class="fs-5">O localiza tu centro más cercano para ingresar
+              tu paquete a la ruta de entrega correspondiente.
+              ¡Rápido lo tenemos, rápido lo entregamos!
+            </p>
+            <a class="btn btn-danger btn-outline-warning" href="#recolecciones" role="button">Programar</a>
+            <a class="btn btn-danger btn-outline-warning" href="#centros" role="button">Centros</a>
+          </article>
+          <article class="col-12 col-lg-6">
+            <img src="assets/img/envios/recoleccion.png" class="img-e" alt="recolecciones">
+          </article>
+        </section>
+        <section class="row align-items-lg-center text-center">
+          <article class="col-12 col-lg-6 text-lg-end py-5">
+            <h2>Paso 3</h2>
+            <h4>Rastrea tu paquete</h4>
+            <p class="fs-5">Sabrás su ubicación en todo momento hasta que
+              haya sido entregado. ¡Te mantendremos informado!
+              <br>
+              Y si tienes problemas, te ayudaremos siempre.
+              <br>
+              ¡Recuerda que nuestra atención es 24/7!
+            </p>
+            <a class="btn btn-danger btn-outline-warning" href="buscador.html" role="button">Tracking</a>
+
+
+          </article>
+          <article class="col-12 col-lg-6">
+            <img src="assets/img/envios/tracking.png" class="img-e" alt="traking">
+          </article>
+        </section>
+      </section>
+
+      <section id="guias" class="row py-5">
+        <article class="text-center pt-3">
+          <h1 class="fs-1">Tarifas y tiempos de tránsito</h1>
+          <p class="fs-3">Calcula las tarifas de envío de Paquete Ibas</p>
+        </article>
+        <article class="text-center">
+          <div class="input-group mb-3 container pt-3 w-75">
+            <span class="input-group-text bg-body-tertiary">DESDE</span>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="ciudadP" placeholder="Partida">
+              <label for="ciudadP">Ciudad de Partida</label>
             </div>
-        </div>
-    </nav>
+          </div>  
+            <div class="input-group mb-3 container py-3 w-75">
+              <span class="input-group-text bg-body-tertiary">HASTA</span>
+              <div class="form-floating">
+                <input type="text" class="form-control" id="ciudadD" placeholder="Destino">
+                <label for="ciudadD">Ciudad de Destino</label>
+              </div>
+            </div>
+          
+          <button class="btn btn-danger" type="submit">Calcular</button>
+        </article>
+        <article class="col-12 col-lg-6"></article>
+      </section>
 
-    <main class="pt-3 bg-gradient-yellow">
-        <div class="container">
-            <section class="row py-5">
-                <article class="text-center pt-3">
-                    <h1 class="fs-1">¡Tus envíos de la forma más rápida y segura!</h1>
-                    <p class="fs-5">Estamos comprometidos contigo y con tu
-                        experiencia. Aquí te presentamos cómo puedes realizar
-                        tus envíos. ¡Rápido y seguro!
-                    </p>
-                </article>
-                <section class="row align-items-lg-center text-center">
-                    <article class="col-12 col-lg-6 text-lg-end">
-                        <h2>Paso 1</h2>
-                        <h4>Imprime tus guías</h4>
-                        <p class="fs-5">De acuerdo al tamaño, peso y destino de tu envío
-                            se te brindarán tus guías y costos de cada una de ellas.
-                            ¡Más envíos, más ahorro!
-                        </p>
-                        <a class="btn btn-danger btn-outline-warning" href="#guias" role="button">Conseguir</a>
-                    </article>
-                    <article class="col-12 col-lg-6">
-                        <img src="assets/img/envios/guias.png" class="img-e" alt="guias">
-                    </article>
-                </section>
-                <section class="row align-items-lg-center text-center">
-                    <article class="col-12 col-lg-6 order-lg-1 text-lg-start py-5">
-                        <h2>Paso 2</h2>
-                        <h4>Programa tu recolección</h4>
-                        <p class="fs-5">O localiza tu centro más cercano para ingresar
-                            tu paquete a la ruta de entrega correspondiente.
-                            ¡Rápido lo tenemos, rápido lo entregamos!
-                        </p>
-                        <a class="btn btn-danger btn-outline-warning" href="#recolecciones" role="button">Programar</a>
-                        <a class="btn btn-danger btn-outline-warning" href="#centros" role="button">Centros</a>
-                    </article>
-                    <article class="col-12 col-lg-6">
-                        <img src="assets/img/envios/recoleccion.png" class="img-e" alt="recolecciones">
-                    </article>
-                </section>
-                <section class="row align-items-lg-center text-center">
-                    <article class="col-12 col-lg-6 text-lg-end py-5">
-                        <h2>Paso 3</h2>
-                        <h4>Rastrea tu paquete</h4>
-                        <p class="fs-5">Sabrás su ubicación en todo momento hasta que
-                            haya sido entregado. ¡Te mantendremos informado!
-                            <br>
-                            Y si tienes problemas, te ayudaremos siempre.
-                            <br>
-                            ¡Recuerda que nuestra atención es 24/7!
-                        </p>
-                        <a class="btn btn-danger btn-outline-warning" href="buscador.html" role="button">Tracking</a>
+      <section id="centros" class="row py-5">
+        <article class="text-center pt-5">
+          <h1 class="fs-1">Ubica nuestros centros</h1>
+          <p class="fs-3 m-0">Acude con tu paquete a nuestras
+            instalaciones. ¡Estaremos encantados de atenderte!
+          </p>
+          <p class="fs-5">¿Dudas? Envía un correo a <b>ayuda@paqueteIbas.com</b>
+            con lo que quieras saber.</p>
+        </article>
+        <article class="col-md-6 text-center pt-3 order-lg-1 m-auto">
+          <h1 class="fs-2">¡Queremos conocer tu opinión!</h1>
+          <p class="fs-4">En los centros de distribución existen módulos
+            de quejas y sugerencias en los que puedes contarnos más de tu
+            experiencia. De igual forma, en todas tus recolecciones enviaremos
+            una encuesta de satisfacción. <br> ¡Ayúdanos a ser mejor para ti!
+          </p>
+        </article>
+        <article class="col-md-6 text-center pt-5">
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.3893003686658!2d-101.01108362473401!3d25.42524517756492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86887290c02202ef%3A0x65250f876b4b522c!2sAlameda%20Zaragoza!5e0!3m2!1ses-419!2smx!4v1695078895185!5m2!1ses-419!2smx"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+      </section>
 
+      <section id="recolecciones" class="row py-5">
+        <article class="text-center pt-3">
+          <h1 class="fs-1">Programar una recolección</h1>
+          <p class="fs-3 m-0">¿No puedes acudir a nuestros centros
+            de distribución?
+          </p>
+          <p class="fs-3 m-0 pb-3">Agenda tu recolección rápido, seguro
+            ¡y sin salir de casa!
+          </p>
+        </article>
 
-                    </article>
-                    <article class="col-12 col-lg-6">
-                        <img src="assets/img/envios/tracking.png" class="img-e" alt="traking">
-                    </article>
-                </section>
-            </section>
-
-            <section id="guias" class="row py-5">
-                <article class="text-center pt-3">
-                    <h1 class="fs-1">Tarifas y tiempos de tránsito</h1>
-                    <p class="fs-3">Calcula las tarifas de envío de Paquete Ibas</p>
-                </article>
-                <article class="text-center">
-                    <div class="input-group mb-3 container py-3">
-                        <span class="input-group-text bg-body-tertiary">DESDE</span>
-                        <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
-                            <label for="floatingInputGroup1">Ciudad de Partida</label>
-                        </div>
-                        <span class="input-group-text bg-body-tertiary">HASTA</span>
-                        <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
-                            <label for="floatingInputGroup1">Ciudad de Destino</label>
-                        </div>
-                    </div>
-                    <button class="btn btn-danger" type="submit">Calcular</button>  
-                </article>
-                <article class="col-12 col-lg-6"></article>
-            </section>
-
-            <section id="centros" class="row py-5">
-                <article class="text-center pt-5">
-                    <h1 class="fs-1">Ubica nuestros centros</h1>
-                    <p class="fs-3 m-0">Acude con tu paquete a nuestras
-                        instalaciones. ¡Estaremos encantados de atenderte!
-                    </p>
-                    <p class="fs-5">¿Dudas? Envía un correo a <b>ayuda@paqueteIbas.com</b>
-                    con lo que quieras saber.</p>
-                </article>
-                <article class="col-md-6 text-center pt-3 order-lg-1 m-auto">
-                    <h1 class="fs-2">¡Queremos conocer tu opinión!</h1>
-                    <p class="fs-4">En los centros de distribución existen módulos
-                        de quejas y sugerencias en los que puedes contarnos más de tu 
-                        experiencia. De igual forma, en todas tus recolecciones enviaremos
-                        una encuesta de satisfacción. <br> ¡Ayúdanos a ser mejor para ti!
-                    </p>
-                </article>
-                <article class="col-md-6 text-center pt-5">
-                    <div class="ratio ratio-16x9">
-                        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.3893003686658!2d-101.01108362473401!3d25.42524517756492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86887290c02202ef%3A0x65250f876b4b522c!2sAlameda%20Zaragoza!5e0!3m2!1ses-419!2smx!4v1695078895185!5m2!1ses-419!2smx" 
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                      </div>
-                </article>
-            </section>
-
-            <section id="recolecciones" class="row py-5">
-                <article class="text-center pt-3">
-                    <h1 class="fs-1">Programar una recolección</h1>
-                    <p class="fs-3 m-0">¿No puedes acudir a nuestros centros 
-                        de distribución?
-                    </p>
-                    <p class="fs-3 m-0 pb-3">Agenda tu recolección rápido, seguro
-                        ¡y sin salir de casa!
-                    </p>
-                </article>
-
-                <article class="pt-3">
-                    <!-- El atributo name es para la API del form
+        <article class="pt-3">
+          <!-- El atributo name es para la API del form
                     Esta API sólo te envía el formulario al correo asignado -->
-                    <form class="row g-3 needs-validation" 
-                    action="https://formsubmit.co/c.luciaest.72@gmail.com"
-                    method="post" novalidate>
-                        <div class="col-md-4">
-                          <label for="validationName" class="form-label">Nombre</label>
-                          <input type="text" class="form-control" name="nombre"
-                          id="validationName" value="" required>
-                          <div class="invalid-feedback">
-                            Escribe al menos un nombre.
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <label for="validationLastName" class="form-label">Apellido</label>
-                          <input type="text" class="form-control" name="apellido"
-                          id="validationLastName" value="" required>
-                          <div class="invalid-feedback">
-                            Escribe al menos un apellido.
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <label for="validationEmail" class="form-label">Correo electrónico</label>
-                          <div class="input-group has-validation">
-                            <span class="input-group-text" id="inputGroupPrepend">@</span>
-                            <input type="text" class="form-control" name="correo"
-                            id="validationEmail" aria-describedby="inputGroupPrepend" required>
-                            <div class="invalid-feedback">
-                              Escribe tu correo electrónico.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <label for="validationCity" class="form-label">Ciudad</label>
-                          <input type="text" class="form-control" name="ciudad"
-                          id="validationCity" required>
-                          <div class="invalid-feedback">
-                            Seleccione una ciudad válida.
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <label for="validationState" class="form-label">Estado</label>
-                          <select class="form-select" name="estado"
-                          id="validationState" required>
-                            <option selected disabled value="">Elegir</option>
-                            <option value="1">Aguascalientes</option>
-                            <option value="2">Baja California</option>
-                            <option value="3">Baja California Sur</option>
-                            <option value="4">Campeche</option>
-                            <option value="5">Chiapas</option>
-                            <option value="6">Chihuahua</option>
-                            <option value="7">Coahuila de Zaragoza</option>
-                            <option value="8">Colima</option>
-                            <option value="9">Durango</option>
-                            <option value="10">Estado de México</option>
-                            <option value="11">Guanajuato</option>
-                            <option value="12">Guerrero</option>
-                            <option value="13">Hidalgo</option>
-                            <option value="14">Jalisco</option>
-                            <option value="15">Michoacán</option>
-                            <option value="16">Morelos</option>
-                            <option value="17">Nayarit</option>
-                            <option value="18">Nuevo León</option>
-                            <option value="19">Oaxaca</option>
-                            <option value="20">Puebla</option>
-                            <option value="21">Querétaro</option>
-                            <option value="22">Quintana Roo</option>
-                            <option value="23">San Luis Potosí</option>
-                            <option value="24">Sinaloa</option>
-                            <option value="25">Sonora</option>
-                            <option value="26">Tabasco</option>
-                            <option value="27">Tamaulipas</option>
-                            <option value="28">Tlaxcala</option>
-                            <option value="29">Veracruz</option>
-                            <option value="30">Yucatán</option>
-                            <option value="31">Zacatecas</option>
-                          </select>
-                          <div class="invalid-feedback">
-                            Seleccione un estado.
-                          </div>
-                        </div>
-                        <div class="col-md-3">
-                          <label for="validationCP" class="form-label">Código Postal</label>
-                          <input type="text" class="form-control" name="CP"
-                          id="validationCP" required>
-                          <div class="invalid-feedback">
-                            Introduzca un C.P. válido..
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="validationTel" class="form-label">Teléfono</label>
-                            <div class="input-group has-validation">
-                              <input type="text" class="form-control" name="tel"
-                              id="validationTel" aria-describedby="inputGroupPrepend" required>
-                              <div class="invalid-feedback">
-                                Introduzca un teléfono válido.
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-4">
-                            <label for="validationDir" class="form-label">Dirección</label>
-                            <div class="input-group has-validation">
-                              <input type="text" class="form-control" name="direccion"
-                              id="validationDir" aria-describedby="inputGroupPrepend" required>
-                              <div class="invalid-feedback">
-                                Introduzca una dirección válida.
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-4">
-                            <label for="validationRef" class="form-label">Referencias</label>
-                            <div class="input-group has-validation">
-                              <input type="text" class="form-control" name="referencias"
-                              id="validationRef" aria-describedby="inputGroupPrepend" required>
-                              <div class="valid-feedback">
-                                Muy bien.
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <label for="validationDay" class="form-label">Día de recolección</label>
-                            <select class="form-select" name="dia"
-                            id="validationDay" required>
-                              <option selected disabled value="">Elegir</option>
-                              <option value="">Lunes</option>
-                              <option value="">Martes</option>
-                              <option value="">Miércoles</option>
-                              <option value="">Jueves</option>
-                              <option value="">Viernes</option>
-                            </select>
-                            <div class="invalid-feedback">
-                              Seleccione un día válido.
-                            </div>
-                          </div>
-                          <div class="col-md-6">
-                            <label for="validationHour" class="form-label">Horario</label>
-                            <select class="form-select" id="validationHour" required>
-                              <option selected disabled value="">Elegir...</option>
-                              <option value="900">9hrs</option>
-                              <option value="1100">11hrs</option>
-                              <option value="1300">13hrs</option>
-                              <option value="1500">15hrs</option>
-                            </select>
-                            <div class="invalid-feedback">
-                              Selecciona un horario válido.
-                            </div>
-                          </div>
-                        <div class="col-12">
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" name="check"
-                            id="invalidCheck" required>
-                            <label class="form-check-label" for="invalidCheck">
-                              Estoy de acuerdo con los términos y condiciones.
-                            </label>
-                            <p>
-                                <small>*La agenda es referida a la semana en curso en que
-                                    se realiza el formulario.
-                                </small>
-                            </p>
-                            <div class="invalid-feedback">
-                              Debes estar de acuerdo con los términos y condiciones.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-12">
-                          <button class="btn btn-outline-danger" type="submit">Agendar</button>
-                          <input type="hidden" name="_next" value="http://127.0.0.1:5500/PAQUETE%20IBAS/gracias.html">
-                          <input type="hidden" name="_subject" value="nueva-recoleccion">
-                        </div>
-                      </form>
-                </article>
+          <form class="row g-3 needs-validation" action="https://formsubmit.co/c.luciaest.72@gmail.com" method="post"
+            novalidate>
+            <div class="col-md-4">
+              <label for="validationName" class="form-label">Nombre</label>
+              <input type="text" class="form-control" name="nombre" id="validationName" value="" required>
+              <div class="invalid-feedback">
+                Escribe al menos un nombre.
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationLastName" class="form-label">Apellido</label>
+              <input type="text" class="form-control" name="apellido" id="validationLastName" value="" required>
+              <div class="invalid-feedback">
+                Escribe al menos un apellido.
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationEmail" class="form-label">Correo electrónico</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" name="correo" id="validationEmail"
+                  aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Escribe tu correo electrónico.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" name="ciudad" id="validationCity" required>
+              <div class="invalid-feedback">
+                Seleccione una ciudad válida.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationState" class="form-label">Estado</label>
+              <select class="form-select" name="estado" id="validationState" required>
+                <option selected disabled value="">Elegir</option>
+                <option value="1">Aguascalientes</option>
+                <option value="2">Baja California</option>
+                <option value="3">Baja California Sur</option>
+                <option value="4">Campeche</option>
+                <option value="5">Chiapas</option>
+                <option value="6">Chihuahua</option>
+                <option value="7">Coahuila de Zaragoza</option>
+                <option value="8">Colima</option>
+                <option value="9">Durango</option>
+                <option value="10">Estado de México</option>
+                <option value="11">Guanajuato</option>
+                <option value="12">Guerrero</option>
+                <option value="13">Hidalgo</option>
+                <option value="14">Jalisco</option>
+                <option value="15">Michoacán</option>
+                <option value="16">Morelos</option>
+                <option value="17">Nayarit</option>
+                <option value="18">Nuevo León</option>
+                <option value="19">Oaxaca</option>
+                <option value="20">Puebla</option>
+                <option value="21">Querétaro</option>
+                <option value="22">Quintana Roo</option>
+                <option value="23">San Luis Potosí</option>
+                <option value="24">Sinaloa</option>
+                <option value="25">Sonora</option>
+                <option value="26">Tabasco</option>
+                <option value="27">Tamaulipas</option>
+                <option value="28">Tlaxcala</option>
+                <option value="29">Veracruz</option>
+                <option value="30">Yucatán</option>
+                <option value="31">Zacatecas</option>
+              </select>
+              <div class="invalid-feedback">
+                Seleccione un estado.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCP" class="form-label">Código Postal</label>
+              <input type="text" class="form-control" name="CP" id="validationCP" required>
+              <div class="invalid-feedback">
+                Introduzca un C.P. válido..
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationTel" class="form-label">Teléfono</label>
+              <div class="input-group has-validation">
+                <input type="text" class="form-control" name="tel" id="validationTel"
+                  aria-describedby="inputGroupPrepend" autocomplete="on" required>
+                <div class="invalid-feedback">
+                  Introduzca un teléfono válido.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDir" class="form-label">Dirección</label>
+              <div class="input-group has-validation">
+                <input type="text" class="form-control" name="direccion" id="validationDir"
+                  aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Introduzca una dirección válida.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationRef" class="form-label">Referencias</label>
+              <div class="input-group has-validation">
+                <input type="text" class="form-control" name="referencias" id="validationRef"
+                  aria-describedby="inputGroupPrepend" required>
+                <div class="valid-feedback">
+                  Muy bien.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDay" class="form-label">Día de recolección</label>
+              <select class="form-select" name="dia" id="validationDay" required>
+                <option selected disabled value="">Elegir</option>
+                <option value="">Lunes</option>
+                <option value="">Martes</option>
+                <option value="">Miércoles</option>
+                <option value="">Jueves</option>
+                <option value="">Viernes</option>
+              </select>
+              <div class="invalid-feedback">
+                Seleccione un día válido.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationHour" class="form-label">Horario</label>
+              <select class="form-select" id="validationHour" required>
+                <option selected disabled value="">Elegir...</option>
+                <option value="900">9hrs</option>
+                <option value="1100">11hrs</option>
+                <option value="1300">13hrs</option>
+                <option value="1500">15hrs</option>
+              </select>
+              <div class="invalid-feedback">
+                Selecciona un horario válido.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" name="check" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Estoy de acuerdo con los términos y condiciones.
+                </label>
+                <p>
+                  <small>*La agenda es referida a la semana en curso en que
+                    se realiza el formulario.
+                  </small>
+                </p>
+                <div class="invalid-feedback">
+                  Debes estar de acuerdo con los términos y condiciones.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-outline-danger" type="submit">Agendar</button>
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/PAQUETE%20IBAS/gracias.html">
+              <input type="hidden" name="_subject" value="nueva-recoleccion">
+            </div>
+          </form>
+        </article>
 
-      
-                <article class="pt-3"></article>
+
+        <article class="pt-3"></article>
 
 
 
 
 
 
-            </section>
-        </div>
-    </main>
+      </section>
+    </div>
+  </main>
 
 
 
-    <footer class="bg-body-tertiary p-3">
-        <div class="container text-center">
-            <nav class="d-flex justify-content-evenly">
-                <a href="https://.com" target="_blank">
-                    <i class="bi bi-facebook"></i>
-                </a>
-                <a href="https://.com" target="_blank">
-                    <i class="bi bi-instagram"></i>
-                </a>
-                <a href="https://.com" target="_blank">
-                    <i class="bi bi-whatsapp"></i>
-                </a>
-                <a href="https://.com" target="_blank">
-                    <i class="bi bi-youtube"></i>
-                </a>
-                <a href="https://.com" target="_blank">
-                    <i class="bi bi-twitter"></i>
-                </a>
-                <a href="https://.com" target="_blank">
-                    <i class="bi bi-messenger"></i>
-                </a>
-                <a href="https://.com" target="_blank">
-                    <i class="bi bi-box2-heart"></i>
-                </a>
-            </nav>
-            <small>Lucia Esteves &copy; 2023. Hecho con fines educativos guíado por el
-                profesional
-                <a href="https://www.youtube.com/@jonmircha" target="_blank">
-                    Jonathan MirCha
-                </a>.
-            </small>
-        </div>
+  <footer class="bg-body-tertiary p-3">
+    <div class="container text-center">
+      <nav class="d-flex justify-content-evenly">
+        <a href="https://.com" target="_blank">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://.com" target="_blank">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://.com" target="_blank">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://.com" target="_blank">
+          <i class="bi bi-youtube"></i>
+        </a>
+        <a href="https://.com" target="_blank">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://.com" target="_blank">
+          <i class="bi bi-messenger"></i>
+        </a>
+        <a href="https://.com" target="_blank">
+          <i class="bi bi-box2-heart"></i>
+        </a>
+      </nav>
+      <small>
+        Creado con fines educativos por
+        <a href="https://www.youtube.com/@jonmircha" target="_blank">
+          Lucía Esteves
+        </a>
+        &copy; 2023.
+      </small>
+    </div>
 
-    </footer>
-
-
+  </footer>
+  <!-- Se agrega aqui el script ya que de hacerlo
+  antes, el archivo no logra encontrar el padre, ya que carga antes 
+  que el html  -->
+  <script type="text/javascript" src="main.js" ></script>
+  
 </body>
 
 </html>
