@@ -17,11 +17,10 @@
 
 <body>
     <!-- Barra de navegación -->
-    <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="fixed-top navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/img/icons/general/logo.png" 
-                alt="Paquete Ibas Logo" class="giro">
+                <img src="assets/img/icons/general/logo.png" alt="Paquete Ibas Logo" class="giro">
                 Paquete Ibas
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
@@ -65,28 +64,29 @@
     </nav>
 
     <main class="pt-3 bg-gradient-pink">
-        <section class="min-vh-100 ">
+        <section class="min-vh-100 d-grid align-items-center">
             <div class="container text-center py-5">
                 <h1 class="mb-5 title">Paquete Ibas</h1>
                 <img src="assets/img/icons/general/logo.png" class="logo giro" alt="Paquete Ibas Logo">
                 <h3 class="pt-5 subtitle">Entregando con el ❤️</h3>
-            </div>
-            <!-- Input de Buscador -->
-            <div class="position-relative py-5">
-                <div class="container">
-                    <form class="container text-center row row-cols-lg-auto 
+                <!-- Input de Buscador -->
+                <div class="position-relative py-5">
+                    <div class="container">
+                        <form class="container text-center row row-cols-lg-auto 
                     g-2 align-items-center">
-                        <div class="col-5 col-md-9 col-lg-10 w-75">
-                            <label for="inputGuia" class="visually-hidden"></label>
-                            <input type="password" class="form-control" id="inputGuia" placeholder="Número de guía">
-                        </div>
-                        <div class="col-1 col-lg-2">
-                            <button type="button" class="btn btn-danger" 
-                            data-bs-toggle="modal" data-bs-target="#buscarBtn">Rastrear</button>
-                        </div>
-                    </form>
+                            <div class="col-5 col-md-9 col-lg-10 w-75">
+                                <label for="inputGuia" class="visually-hidden"></label>
+                                <input type="text" class="form-control" id="inputGuia" placeholder="Número de guía">
+                            </div>
+                            <div class="col-1 col-lg-2">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#buscarBtn">Rastrear</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
+
         </section>
 
         <!-- Modal -->
@@ -144,8 +144,8 @@
                 This site was made only for Education Purposes by
                 <a href="#" target="_blank">
                     Lucía Esteves
-                </a> 
-                &copy; 2023. 
+                </a>
+                &copy; 2023.
             </small>
         </div>
 

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paquete Ibas | Inicio</title>
     <link rel="icon" href="assets/img/icons/general/logo.png">
-
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -17,11 +16,10 @@
 
 <body>
     <!-- Barra de navegación -->
-    <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="fixed-top navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/img/icons/general/logo.png" 
-                alt="Paquete Ibas Logo" class="giro">
+                <img src="assets/img/icons/general/logo.png" alt="Paquete Ibas Logo" class="giro">
                 Paquete Ibas
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
@@ -66,34 +64,35 @@
 
     <main class="bg-gradient-pink">
         <!-- Banner -->
-        <header class="min-vh-100">
-            <div class="py-5 mx-auto text-center">
+        <header class="min-vh-100 d-grid align-items-center justify-content-center">
+            <div class="text-center">
                 <h1 class="title">Paquete Ibas</h1>
-                <img src="assets/img/icons/general/logo.png" 
-                class="logo giro" alt="Paquete Ibas Logo">
+                <img src="assets/img/icons/general/logo.png" class="logo giro" alt="Paquete Ibas Logo">
                 <h3 class="subtitle">Entregando con el ❤️</h3>
+
+                <!-- Input de Buscador -->
+                <div class="mt-5">
+                    <div class="container">
+                        <form class="container text-center row row-cols-lg-auto 
+                g-2 align-items-center">
+                            <div class="col-5 col-md-9 col-lg-10 w-75">
+                                <label for="inputGuia" class="visually-hidden"></label>
+                                <input type="text" class="form-control" id="inputGuia" placeholder="Número de guía">
+                            </div>
+                            <div class="col-1 col-lg-2">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#buscarBtn">Rastrear</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
 
-             <!-- Input de Buscador -->
-        <div class="position-relative pb-5 pt-3">
-            <div class="container">
-                <form class="container text-center row row-cols-lg-auto 
-                g-2 align-items-center">
-                    <div class="col-5 col-md-9 col-lg-10 w-75">
-                        <label for="inputGuia" class="visually-hidden"></label>
-                        <input type="password" class="form-control" id="inputGuia" placeholder="Número de guía">
-                    </div>
-                    <div class="col-1 col-lg-2">
-                        <button type="button" class="btn btn-danger" 
-                        data-bs-toggle="modal" data-bs-target="#buscarBtn">Rastrear</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+
         </header>
 
-         <!-- Modal -->
-         <div class="modal fade " id="buscarBtn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- Modal -->
+        <div class="modal fade " id="buscarBtn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header bg-gradient-yellow">
@@ -279,8 +278,8 @@
                 This site was made only for Education Purposes by
                 <a href="#" target="_blank">
                     Lucía Esteves
-                </a> 
-                &copy; 2023. 
+                </a>
+                &copy; 2023.
             </small>
         </div>
 
