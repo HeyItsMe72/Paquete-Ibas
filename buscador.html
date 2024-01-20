@@ -64,30 +64,28 @@
     </nav>
 
     <main class="pt-3 bg-gradient-pink">
-        <section class="min-vh-100 d-grid align-items-center">
-            <div class="container text-center py-5">
-                <h1 class="mb-5 title">Paquete Ibas</h1>
-                <img src="assets/img/icons/general/logo.png" class="logo giro" alt="Paquete Ibas Logo">
-                <h3 class="pt-5 subtitle">Entregando con el ❤️</h3>
-                <!-- Input de Buscador -->
-                <div class="position-relative py-5">
-                    <div class="container">
-                        <form class="container text-center row row-cols-lg-auto 
-                    g-2 align-items-center">
-                            <div class="col-5 col-md-9 col-lg-10 w-75">
-                                <label for="inputGuia" class="visually-hidden"></label>
-                                <input type="text" class="form-control" id="inputGuia" placeholder="Número de guía">
-                            </div>
-                            <div class="col-1 col-lg-2">
-                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
-                                    data-bs-target="#buscarBtn">Rastrear</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
 
-        </section>
+        <!-- Banner -->
+        <header class="min-vh-100 d-grid align-items-center justify-content-center">
+            <div class="text-center">
+                <h1 class="title">Paquete Ibas</h1>
+                <img src="assets/img/icons/general/logo.png" class="logo giro" alt="Paquete Ibas Logo">
+                <h3 class="subtitle">Entregando con el ❤️</h3>
+
+                <!-- Input de Buscador -->
+                <form class="mt-5">
+                    <div class="d-flex flex-row justify-content-around">
+                        <label for="inputGuia" class="visually-hidden"></label>
+                        <input type="text" class="form-control" id="inputGuia" placeholder="Número de guía">
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#buscarBtn">
+                            Rastrear
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </header>
+
+
 
         <!-- Modal -->
         <div class="modal fade " id="buscarBtn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
