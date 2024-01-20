@@ -4,6 +4,12 @@
  
 ![TYPE](https://img.shields.io/badge/Proyecto%20de%20Maquetacion-pink?style=for-the-badge&color=BLUE)![Multipage](https://img.shields.io/badge/Multip%C3%A1gina-pink?style=for-the-badge)
 
+![Responsive](https://img.shields.io/badge/Responsive%20Site%20-green?label=100%25&labelColor=%23336600&color=orange)
+
+
+
+
+
 ![image](https://github.com/HeyItsMe72/Paquete-Ibas/assets/124311622/d4e2296c-5d3d-43d6-8795-bdac4c9c8890)
 
 ### **Introducción**
