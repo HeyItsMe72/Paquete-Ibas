@@ -76,3 +76,6 @@ La sección de *Programar una recolección* también es bastante mejorable, tamb
 
 ## **Funcionalidades**
 En general, no existe gran explicación para la funcionalidades, ya que todos los componentes utilizados son brindados por la librería de bootstrap, eso incluye todo lo que pueda necesitar programación en javascript. Para obtener mayor información de su uso, cómo comenzar y cómo maquetar, se puede visitar [Bootstrap](https://getbootstrap.com/).
+
+
+Los íconos utilizados pueden ser encontrados en: [Flaticon](https://www.flaticon.com/)
